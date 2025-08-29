@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiPlayer - Events and Delegates", "MultiPlayer - Events and Delegates\MultiPlayer - Events and Delegates.csproj", "{02ED44EB-AD21-4D84-8E50-E678F7E3C51F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator - Events and Delegates", "Calculator - Events and Delegates\Calculator - Events and Delegates.csproj", "{9AF99A65-4611-4639-B746-8C0B54423EF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQDataManipulation", "LINQDataManipulation\LINQDataManipulation.csproj", "{C4D04971-5255-422E-A1E9-A9E734C343B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericStack - Generics", "GenericStack - Generics\GenericStack - Generics.csproj", "{2194F692-387F-436E-AB45-706495C3AFA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02ED44EB-AD21-4D84-8E50-E678F7E3C51F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02ED44EB-AD21-4D84-8E50-E678F7E3C51F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02ED44EB-AD21-4D84-8E50-E678F7E3C51F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02ED44EB-AD21-4D84-8E50-E678F7E3C51F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AF99A65-4611-4639-B746-8C0B54423EF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AF99A65-4611-4639-B746-8C0B54423EF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AF99A65-4611-4639-B746-8C0B54423EF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AF99A65-4611-4639-B746-8C0B54423EF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4D04971-5255-422E-A1E9-A9E734C343B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4D04971-5255-422E-A1E9-A9E734C343B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4D04971-5255-422E-A1E9-A9E734C343B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4D04971-5255-422E-A1E9-A9E734C343B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2194F692-387F-436E-AB45-706495C3AFA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2194F692-387F-436E-AB45-706495C3AFA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2194F692-387F-436E-AB45-706495C3AFA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2194F692-387F-436E-AB45-706495C3AFA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
