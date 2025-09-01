@@ -12,7 +12,6 @@ public class GenericCache<T>
 
     public CacheItem<T> GetItem(T itemVal)
     {
-        //TODO: Collection was modified; enumeration operation may not execute error - investigate
         RemoveExpiredItems();
         CacheItem<T> item = cache.FirstOrDefault(i => Equals(i.value, itemVal));
         if (item != null)
@@ -24,19 +23,20 @@ public class GenericCache<T>
     public void DisplayCache()
     {
         RemoveExpiredItems();
+        if(cache.Count == 0)
+        {
+            Console.WriteLine("There are no items in the cache");
+            return;
+        }
+        
         foreach (CacheItem<T> item in cache)
         {
-            Console.WriteLine($"{item}");
-            Console.WriteLine($"\n");
+            Console.WriteLine($"Value: {item.value}, Expiration Time: {item.expirationTime}");
         }
     }
 
     public void RemoveExpiredItems()
     {
-        foreach (CacheItem<T> item in cache)
-        {
-            if (item.IsExpired())
-                cache.Remove(item);
-        }
+        cache.RemoveAll(i => i.IsExpired());
     }
 }

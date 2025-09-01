@@ -4,7 +4,6 @@ using GenericCache___Constraints_and_Advanced_Generics;
 
 public class Program
 {
-    //NOT FINISHED, SEE GENERIC CACHE FOR TODO
     public static void Main(string[] args)
     {
         //Starting data
