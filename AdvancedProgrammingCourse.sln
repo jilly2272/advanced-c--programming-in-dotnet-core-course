@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousAPIDataRetrieva
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WriteToFile - Error Handling", "WriteToFile - Error Handling\WriteToFile - Error Handling.csproj", "{341BAB21-DDAF-4A33-B686-583F63109D6E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScientificCalculator - Error Handling", "ScientificCalculator - Error Handling\ScientificCalculator - Error Handling.csproj", "{18A841A9-74FF-4EDC-97DA-49ABF8F77A18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{341BAB21-DDAF-4A33-B686-583F63109D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{341BAB21-DDAF-4A33-B686-583F63109D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{341BAB21-DDAF-4A33-B686-583F63109D6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18A841A9-74FF-4EDC-97DA-49ABF8F77A18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A841A9-74FF-4EDC-97DA-49ABF8F77A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A841A9-74FF-4EDC-97DA-49ABF8F77A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A841A9-74FF-4EDC-97DA-49ABF8F77A18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
