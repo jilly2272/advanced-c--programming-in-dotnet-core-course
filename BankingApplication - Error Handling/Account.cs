@@ -1,6 +1,4 @@
-﻿using System.Diagnostics;
-
-namespace BankingApplication___Error_Handling;
+﻿namespace BankingApplication___Error_Handling;
 
 public class Account(float balance, string accountNumber)
 {
